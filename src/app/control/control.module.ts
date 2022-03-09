@@ -17,6 +17,12 @@ import { ProductsComponent } from './products/products.component';
 import { CustomeTshirtComponent } from './custome-tshirt/custome-tshirt.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CartComponent } from './cart/cart.component';
+import { FirstsectionComponent } from './././homepage/firstsection/firstsection.component';
+import { WelcomesectionComponent } from './././homepage/welcomesection/welcomesection.component';
+import { OurservicesComponent } from './././homepage/ourservices/ourservices.component';
+import { OurcategoriesComponent } from './././homepage/ourcategories/ourcategories.component';
+import { AboutusnewComponent } from './././homepage/aboutusnew/aboutusnew.component';
+import { OurproductsComponent } from './././homepage/ourproducts/ourproducts.component';
 @NgModule({
   declarations: [
     ControlComponent,
@@ -33,6 +39,12 @@ import { CartComponent } from './cart/cart.component';
     ProductsComponent,
     CustomeTshirtComponent,
     CartComponent,
+    FirstsectionComponent,
+    WelcomesectionComponent,
+    OurservicesComponent,
+    OurcategoriesComponent,
+    AboutusnewComponent,
+    OurproductsComponent,
   ],
   imports: [
     CommonModule,

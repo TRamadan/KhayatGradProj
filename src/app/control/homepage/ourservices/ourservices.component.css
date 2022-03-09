@@ -1,0 +1,135 @@
+.main-body {
+    padding-top: 30px;
+    background-color: #efeeee;
+}
+
+body {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card-servies {
+    position: relative;
+    cursor: pointer;
+}
+
+.container .card-servies .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card-servies .face.face1 {
+    position: relative;
+    background: #898989;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card-servies:hover .face.face1 {
+    background: #ff0057;
+    background: #328b65;
+    transform: translateY(0);
+}
+
+.container .card-servies:hover .face.face1.bg-color-1 {
+    background: goldenrod;
+}
+
+.container .card-servies:hover .face.face1.bg-color-2 {
+    background: #2884b9;
+}
+
+.container .card-servies:hover .face.face1.bg-color-3 {
+    background: #b99f27;
+}
+
+.container .card-servies .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card-servies:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card-servies .face.face1 .content img {
+    max-width: 100px;
+    width: 100px;
+}
+
+.container .card-servies .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container .card-servies .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    /* box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8); */
+    transform: translateY(-100px);
+}
+
+.container .card-servies:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.container .card-servies .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.container .card-servies .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.container .card-servies .face.face2 .content a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.card-servies {
+    border: none;
+    background: none;
+}
+
+.container .card-servies .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card-servies:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card-servies .face.face1 .content img {
+    max-width: 100px;
+    width: 100px;
+}
+
+.container .card-servies .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
